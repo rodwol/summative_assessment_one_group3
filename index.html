@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-side">
+            <h1>Garuka Ushime Concert</h1>
+            <p>Get ready to worship, Pray and Praise our almighty Jesus for what he has done to us!</p>
+        </div>
+        <div class="right-side">
+            <h2>Let's start</h2>
+            <p>Carefully read and fill up all the inputs with your original information.</p>
+            <form id="registrationForm">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" required>
+                
+                <label for="eventDate">Event Date</label>
+                <input type="text" id="eventDate" name="eventDate" required>
+                
+                <label for="tickets">Number of Tickets</label>
+                <input type="number" id="tickets" name="tickets" min="1" max="10" required>
+                
+                <button type="submit">Next</button>
+            </form>
+        </div>
+    </div>
+\</body>
+</html>
