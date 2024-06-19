@@ -33,7 +33,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         errorMessages.forEach(message => {
             const error = document.createElement('p');
             error.textContent = message;
-            errorContainer.appendChild(error);
+           alert(error);
         });
     } else {
         alert('Form submitted successfully!');
