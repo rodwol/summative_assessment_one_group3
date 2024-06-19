@@ -1,0 +1,1 @@
+We developed the event registration form for Garuka Ushime. People can register with their names quickly through this form, provided they enter basic information like: – Name(s), Email Addresses, Phone Numbers, dates (End date),/Times, along with a desired number of tickets is/are keyed into it.
