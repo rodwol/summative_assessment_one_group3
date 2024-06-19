@@ -36,6 +36,6 @@ document.getElementById('registrationForm').addEventListener('submit', function(
             errorContainer.appendChild(error);
         });
     } else {
-        errorContainer.innerHTML = 'Form submitted successfully!';
+        alert('Form submitted successfully!');
     }
 });
