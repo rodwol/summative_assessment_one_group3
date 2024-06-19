@@ -36,20 +36,6 @@ document.getElementById('registrationForm').addEventListener('submit', function(
            alert(error);
         });
     } else {
- // Show the modal
-                const modal = document.getElementById('myModal');
-                modal.style.display = 'block';
-
-                // Close the modal when the user clicks on <span> (x)
-                const span = document.getElementsByClassName('close')[0];
-                span.onclick = function() {
-                    modal.style.display = 'none';
-                };
-
-                // Close the modal when the user clicks anywhere outside of the modal
-                window.onclick = function(event) {
-                    if (event.target == modal) {
-                        modal.style.display = 'none';
-                    }
-                };    }
+        alert('Form submitted successfully!');
+    }
 });
