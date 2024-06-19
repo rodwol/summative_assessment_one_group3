@@ -1,4 +1,4 @@
-document.getElementById('registrationForm').addEventListener('submit', function(event) {
+document.getElementById('registrationForm').addEventListener('submit', function (event) {
     event.preventDefault();
     const errorMessages = [];
 
@@ -15,7 +15,7 @@ document.getElementById('registrationForm').addEventListener('submit', function(
     const phone = document.getElementById('phone').value;
     if (!/^\(\d{3}\) \d{3}-\d{4}$/.test(phone)) {
         errorMessages.push('Phone number must be in the format (123) 456-7890.');
-    }
+    } a - z
 
     const date = document.getElementById('date').value;
     if (!/^(0[1-9]|1[0-2])\/(0[1-9]|[12]\d|3[01])\/(19|20)\d{2}$/.test(date)) {
@@ -33,9 +33,12 @@ document.getElementById('registrationForm').addEventListener('submit', function(
         errorMessages.forEach(message => {
             const error = document.createElement('p');
             error.textContent = message;
-           alert(error);
+            error.classList.add('error');
+            errorContainer.appendChild(error);
         });
     } else {
+        console.log('-------------------------');
         alert('Form submitted successfully!');
     }
 });
+
